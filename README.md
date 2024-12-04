@@ -1,8 +1,8 @@
 ### Comparative biogeography of ecological networks
 
-This repository holds a compendium of ecological networks of several interaction types, gathered from previous studies and harmonised. The repository also holds the code necessary to reproduce the findings of the associated study. For more information see the publication: XXX
+This repository holds a compendium of ecological networks of several interaction types, gathered from previous studies and databases, and harmonised. The repository also holds the code necessary to reproduce the findings of the associated study. For more information see the publication: XXX
 
-The dataset comes from different sources, compiled in the "data" folder and joined together in the following files:
+The dataset comes from different sources, either open or compiled by the authors, stored in the "data" folder and joined together in the following files:
 
 - network metadata, including the ID of each network, spatial coordinates, and other info, is stored in the file "results/network_collection.csv"
 - all nodes of all networks are stored in the file "results/network_nodes_collection.csv"
