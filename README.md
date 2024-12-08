@@ -2,7 +2,9 @@
 
 [![DOI](https://zenodo.org/badge/898574847.svg)](https://doi.org/10.5281/zenodo.14277893)
 
-This repository holds a compendium of ecological networks of several interaction types, gathered from previous studies and databases, and harmonised. The repository also holds the code necessary to reproduce the findings of the associated study. For more information see the publication: XXX
+This repository holds a compendium of ecological networks of several interaction types, gathered from previous studies and databases, and harmonised. The repository also holds the code necessary to reproduce the findings of the associated study. For more information see the publication: 
+
+https://doi.org/10.1101/2024.12.04.626839 
 
 The dataset comes from different sources, either open or compiled by the authors, stored in the "data" folder and joined together in the following files:
 
