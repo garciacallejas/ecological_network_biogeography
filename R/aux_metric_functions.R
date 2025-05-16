@@ -5,6 +5,8 @@
 # -------------------------------------------------------------------------
 library(moments)
 
+# devtools::install_github("RadicalCommEcol/MultitrophicFun")
+library(MultitrophicFun)
 # -------------------------------------------------------------------------
 # richness functions
 
@@ -59,7 +61,7 @@ bipartiteness.edge.list <- function(el){
 # }
 
 connectance.matrix <- function(A, diago = F){
-  return(connectance(A,quant = F, diago = diago))
+  return(MultitrophicFun::connectance(A,quant = F, diago = diago))
 }
 
 # degree distribution metrics ---------------------------------------------
@@ -284,13 +286,13 @@ centralization.matrix <- function(A, centrality.type = c("degree",
 # -------------------------------------------------------------------------
 # auxiliary functions for degree centralization
 
-calc_degree_centrality <- function(graph) {
-  components <- components(graph)$membership
+calc_degree_centrality <- function(g) {
+  components <- igraph::components(g)$membership
   centralities <- list()
   
   for(comp in unique(components)) {
-    subgraph <- induced_subgraph(graph, which(components == comp))
-    centrality <- degree(subgraph, mode = "all")
+    subgraph <- induced_subgraph(g, which(components == comp))
+    centrality <- igraph::degree(subgraph, mode = "all")
     centralities[[as.character(comp)]] <- centrality
   }
   

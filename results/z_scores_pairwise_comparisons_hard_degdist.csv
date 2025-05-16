@@ -1,0 +1,46 @@
+"metric";"network_interaction";"ypos";"group"
+"interaction 
+overlap";"pollination";-7,5;"b"
+"interaction 
+overlap";"herbivory";-7,5;"b"
+"interaction 
+overlap";"parasitism";-7,5;"b"
+"interaction 
+overlap";"frugivory";-7,5;"b"
+"interaction 
+overlap";"food web";-7,5;"a"
+"NODF nestedness";"pollination";-7,5;"b"
+"NODF nestedness";"herbivory";-7,5;"ab"
+"NODF nestedness";"parasitism";-7,5;"ab"
+"NODF nestedness";"frugivory";-7,5;"ab"
+"NODF nestedness";"food web";-7,5;"a"
+"betweenness 
+modularity";"pollination";-7,5;"b"
+"betweenness 
+modularity";"herbivory";-7,5;"b"
+"betweenness 
+modularity";"parasitism";-7,5;"b"
+"betweenness 
+modularity";"frugivory";-7,5;"b"
+"betweenness 
+modularity";"food web";-7,5;"a"
+"infomap 
+modularity";"pollination";-7,5;"a"
+"infomap 
+modularity";"herbivory";-7,5;"a"
+"infomap 
+modularity";"parasitism";-7,5;"a"
+"infomap 
+modularity";"frugivory";-7,5;"a"
+"infomap 
+modularity";"food web";-7,5;"a"
+"eigenvector 
+centralisation";"pollination";-7,5;"b"
+"eigenvector 
+centralisation";"herbivory";-7,5;"ab"
+"eigenvector 
+centralisation";"parasitism";-7,5;"a"
+"eigenvector 
+centralisation";"frugivory";-7,5;"ab"
+"eigenvector 
+centralisation";"food web";-7,5;"a"

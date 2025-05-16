@@ -1,0 +1,15 @@
+"network_id";"null_model";"replicate";"metric";"value"
+"gateway_117_degdist";"degree_distribution";11;"richness";160
+"gateway_117_degdist";"degree_distribution";11;"connectance";0,231564465408805
+"gateway_117_degdist";"degree_distribution";11;"degree.shannon";4,87849326519516
+"gateway_117_degdist";"degree_distribution";11;"degree.mean";36,81875
+"gateway_117_degdist";"degree_distribution";11;"degree.sd";21,8522401813497
+"gateway_117_degdist";"degree_distribution";11;"degree.skewness";0,189332023408284
+"gateway_117_degdist";"degree_distribution";11;"degree.kurtosis";2,10984652451243
+"gateway_117_degdist";"degree_distribution";11;"modularity.betweenness";0,0380867776719267
+"gateway_117_degdist";"degree_distribution";11;"modularity.infomap";0
+"gateway_117_degdist";"degree_distribution";11;"nestedness";25,0170334074656
+"gateway_117_degdist";"degree_distribution";11;"centrality.degree";0,342966324337234
+"gateway_117_degdist";"degree_distribution";11;"centrality.eigen";0,355606571115967
+"gateway_117_degdist";"degree_distribution";11;"interaction.overlap";0,256900014157388
+"gateway_117_degdist";"degree_distribution";11;"link.density";36,81875
